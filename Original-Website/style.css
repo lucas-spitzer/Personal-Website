@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header li a {
+  color: black;
+  font-family: Trebuchet MS, monospace;
+  text-decoration: none;
+  font-size: 2vw;
+} 
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5BDBFD;
+  padding: 20px;
+}
+
+.social {
+  width: 5%;
+}
+
+body {
+  margin: 0;
+  z-index: 1;
+}
+
+#Icon {
+  z-index: 2;
+  width: 5%;
+  position: absolute;
+  left: 0;
+}
+
+#Portfolio {
+  padding-bottom: 235px;
+}
+
+#Portfolio h1 {
+  font-size: 6wv;
+  padding: 25px;
+  text-align: center;
+}
+
+#Portfolio li a {
+  font-size: 4wv;
+  padding: 10px;
+}
+
+.portfolio-imgs {
+  width: 100%;
+  height: auto;
+  text-align: center;
+} 
+
+section {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  font-family: Trebuchet MS, monospace;
+}
+
+.Text-Container {
+  width: 70%;
+  padding: 65px 80px;
+}
+
+.Image-Container {
+  width: 30%;
+  text-align: center;
+}
+
+.Text-Container h1 {
+  font-size: 2vw;
+}
+
+.Text-Container p {
+  font-size: 1vw;
+  padding: 25px 0;
+}
+
+.sub-list {
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Text-Container a li {
+  color: black;
+  padding: 5px 2px;
+  font-size: 1vw;
+}
+.Text-Container a li:hover {
+  text-decoration: underline;
+}
+
+/* Change the color of links on hover */
+.top a:hover {
+  background-color: white;
+}
+
+.bottom-nav {
+  display: block;
+  color: black;
+  background-color: #5BDBFD;
+  text-align: center;
+  padding: 14px 20px;
+  font-size: 20px;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#Instagram:hover {
+  content: url('img-files/Instagram-Reverse.png');
+}
+
+#Gmail:hover {
+  content: url('img-files/Gmail-Reverse.png');
+}
+
+#LinkedIn:hover {
+  content: url('img-files/LinkedIn-Reverse.png');
+}
+
+#YouTube:hover {
+  content: url('img-files/YouTube-Reverse.png');
+}
+
+.bottom-nav img {
+  margin: auto 5%;
+}
+
+.main-images {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  margin-top: 25px;
+}
+
+.books {
+  width: 24%;
+  padding-left: 1%;
+  padding-bottom: 30px;
+}
+
+h4 {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  font-family: Trebuchet MS, monospace;
+  font-size: 3vw;
+}
+
+@media screen and (max-width: 912px) {
+  header li a {
+    font-size: 5vw;
+  }
+
+  header {
+    justify-content: center;
+  }
+
+  header img {
+    display: none;
+  }
+  
+  section {
+    flex-direction: column;
+  }
+
+  .Image-Container, .Text-Container {
+    width: 100%;
+  }
+
+  .social {
+    width: 8%;
+  }
+
+  .Text-Container h1 {
+    font-size: 5vw;
+  }
+
+  .Text-Container p {
+    font-size: 4vw;
+  }
+
+  .Text-Container {
+    padding: 10px 25px;
+  }
+
+  .Text-Container a li {
+    font-size: 4vw;
+  }
+
+  #Second-Container {
+    order: 2;
+  }
+
+  #First-Container {
+    order: 1;
+  }
+
+  #Portfolio {
+    padding-bottom: 30px;
+  }
+
+  .main-images {
+    width: 85%;
+  }
+
+  footer {
+    margin-top: 5px;
+  }
+
+  .books {
+    width: 45%;
+    margin-left: 2%;
+    padding-bottom: 30px;
+  }
+
+  h4 {
+    font-size: 5vw;
+  }
+  
+}
+
+@media screen and (max-width: 300px) {
+  .nav-links li {
+    display: inline-block;
+    padding: 0px 8px
+  }
+
+  header li a {
+    font-size: 6vw;
+  }
+
+  .social {
+    width: 10%;
+  }
+}
