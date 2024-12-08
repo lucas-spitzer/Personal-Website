@@ -44,7 +44,7 @@ export default function Home() {
             <CardContent>
               <ul className="space-y-4">
                 <li>
-                  <a href="pdf-docs/Spitzer - IBM Data Analyst Professional Certificate.pdf"><h3 className="font-semibold">IBM Data Analyst Certification</h3></a>
+                  <a href="pdf-docs/Spitzer - IBM Data Analyst Professional Certificate.pdf"><h3 className="font-semibold">IBM Data Analyst Certificate</h3></a>
                   <p className="text-sm text-muted-foreground">Professional Level</p>
                 </li>
                 <li>
