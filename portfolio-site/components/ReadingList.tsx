@@ -23,7 +23,7 @@ const nonFictionBooks = [
   "The Metaverse by Matthew Ball",
   "Meditations by Marcus Aurelius",
   "The Art of War by Sun Tzu",
-  "Mere Christianity for C.S. Lewis",
+  "Mere Christianity by C.S. Lewis",
   "Unlimited Memory by Kevin Horsley",
 ]
 
